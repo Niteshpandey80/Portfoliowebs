@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #E6E4D5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#center{
+    height: 90%;
+    width: 90%;
+    border: 8px solid #272323;
+    -moz-border-radius:40px;
+    border-radius: 20px;
+}
+#nav-main{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+}
+#nav-left{
+    font-family: Gilroy;
+    font-size: 10px;
+    color: #272323;
+}
+#nav-right button{
+    font-family: Gilroy;
+    padding: 7px 20px 7px 20px;
+    border-radius: 20px;
+    border: none;
+    border: 2px solid #272323;
+}
+#nav-right button:hover{
+    background-color: black;
+    color: white;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30%;
+    gap: 40px;
+    font-family: Gilroy;
+    font-size: 12px;
+    margin-bottom: 25px;
+    background-color: #272323;
+    border-radius: 30px;
+    color: white;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+#nav h3{
+    font-weight: 400;
+}
+#main-inner{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main-left{
+    height: 100%;
+    width: 60%;
+    margin-right: -50px;
+}
+#main-left h1{
+    font-size: 140px;
+    font-weight: 700;
+    font-family: Gilroy;
+    margin-left: 30px;
+    margin-top: 30px;
+    white-space: nowrap;
+    color: #272323;
+}
+#main-left p{
+ font-size: 85px;
+ font-weight: 700;
+ font-family: Gilroy;
+ margin-left: 30px;
+ margin-top: -30px;
+ color: #272323;
+}
+#main-right{
+    height: 100%;
+    width: 40%;
+}
+#main-right img{
+    height: 480px;
+    margin-left: 52px;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+#inner-part{
+    height: 100px;
+    width: 500px;
+    margin-left: 37px;
+    margin-top: 2px;
+    padding: 7px;
+}
+#inner-part h5{
+  font-size: 14px;
+  font-family: Gilroy;
+  font-weight: 300;
+}
+#inner-part #icons{
+    margin-top: 45px;
+}
+#inner-part i{
+    font-size: 25px;
+}
+#button{
+    margin-top:20px;
+    margin-left: -10px;
+
+}
+#btn1{
+    padding: 10px 25px 10px 10px ;
+    color: white;
+    background-color: black;
+}
+#btn1:hover{
+    background-color: white;
+    color: black;
+}
+#btn2{
+    padding: 10px 25px 10px 10px ;
+    color: white;
+    background-color: black;
+}
+#btn2:hover{
+    background-color: white;
+    color: black;
+}
+
